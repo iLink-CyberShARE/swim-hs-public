@@ -15,8 +15,8 @@ Node js microservice to authenticate with the Hydroshare platform using OAuth 2.
 3. Setup your docker account at: https://www.docker.com/get-started   
 4. Configure the docker-composer file with your own app settings.   
 5. Run docker compose: $docker-compose up   
-5a. Use -d option o the composer command to run on the background.   
-
+5a. Use -d option on the composer command to run on the background.   
+6. Swagger docs available at http://localhost:6030/api-docs
 
 ### Option 2: Build Docker Container
 1. Download this repository into a folder on your machine.
