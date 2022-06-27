@@ -1,5 +1,5 @@
 # SWIM-HS Bridge Service
-Bridge service between SWIM and the Hydroshare platform using OAuth 2.0 mechanism.
+Node js microservice to authenticate with the Hydroshare platform using OAuth 2.0 mechanism.
 
 ## Features
 + OAUTH2 Authentication
