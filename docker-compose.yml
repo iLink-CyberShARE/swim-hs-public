@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+    swim-hs: 
+        container_name: swim-hs
+        image: lagarnicachavira/swim-hs:latest
+        restart: always
+        environment:
+          NODE_ENV: production
+          APPURL: https://yourdomain.com/swim-hs #url of this service on your server
+          AUTHURL: https://hydroshare.org/o/authorize/
+          TOKENURL: https://www.hydroshare.org/o/token/
+          CLIENTID: yourhydroshareclientid
+          CLIENTSECRET: yourhydrosharesecretkey
+          CALLBACKURL: api/hs-auth/callback # relative url for call back endpoint
+          HSLOGGEDINURL: http://localhost/logged-in # redirect url after authentication: http://localhost/logged-in/token/exptime
+
+        ports:
+          # <Local exposed port> : < application port running inside container>
+          - '6030:3000'

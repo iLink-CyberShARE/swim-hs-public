@@ -1,0 +1,62 @@
+# SWIM-HS Bridge Service
+Bridge service between SWIM and the Hydroshare platform using OAuth 2.0 mechanism.
+
+## Features
++ OAUTH2 Authentication
+- Supports authorization grant type: Authentication Code
+- Auth retrieval redirects to a target url with added path: /token/expiration
+- Does not support refresh token
+
+## Build and Run
+
+### Option 1: Docker Compose File
+1. Download the dcoker-composer.yml file to a path in your machine.   
+2. Install Docker and Docker composer on your target machine.   
+3. Setup your docker account at: https://www.docker.com/get-started   
+4. Configure the docker-composer file with your own app settings.   
+5. Run docker compose: $docker-compose up   
+5a. Use -d option o the composer command to run on the background.   
+
+
+### Option 2: Build Docker Container
+1. Download this repository into a folder on your machine.
+2. Install Docker and Docker composer on your target machine.
+3. Setup your docker account at: https://www.docker.com/get-started
+4. Using a command line or terminal navigate to the base path of the project.
+5. Build the image: $docker build -t swim-hs:latest .
+6. Run the container: $docker run -p 3000:3000 swim-hs
+7. Swagger docs available at http://localhost:3000/api-docs
+
+### Option 3: Native
+1. Install Node.js for your platform (MacOS, Windows or Linux)
+2. Download or clone repo to a folder
+3. Open terminal with path on project folder (or use visual studio)
+4. Install dependencies from package.json: $npm install
+5. Run app: $node server.js
+6. Swagger docs available at http://localhost:3000/api-docs
+
+## How to use
+
++ Use the login endpoint directly to redirect to authentication webpage.
++ After authentication, the callback endpoint will retrieve token from auth server.
++ If the token is retrieved successfully, you will be redirected to the 
+url of choice with the following url endings /token/expiration-time
+
+## Contributors
+Luis Garnica Chavira - UTEP
+
+## Collaborators
+Scott Black - Hydroshare
+
+## Acknowledgements
+This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897.   
+
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.  
+
+## License
+GNU General Public License 3.0
+
+
+
+
+
