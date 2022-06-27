@@ -10,7 +10,7 @@ Node js microservice to authenticate with the Hydroshare platform using OAuth 2.
 ## Build and Run
 
 ### Option 1: Docker Compose File
-1. Download the dcoker-composer.yml file to a path in your machine.   
+1. Download the docker-composer.yml file to a path in your machine.   
 2. Install Docker and Docker composer on your target machine.   
 3. Setup your docker account at: https://www.docker.com/get-started   
 4. Configure the docker-composer file with your own app settings.   
@@ -37,7 +37,7 @@ Node js microservice to authenticate with the Hydroshare platform using OAuth 2.
 
 ## How to use
 
-+ Use the login endpoint directly to redirect to authentication webpage.
++ Use the login endpoint directly to redirect to authentication webpage at the path /api/hs-auth/login
 + After authentication, the callback endpoint will retrieve token from auth server.
 + If the token is retrieved successfully, you will be redirected to the 
 url of choice with the following url endings /token/expiration-time
