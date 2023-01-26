@@ -1,4 +1,4 @@
-# Third-Party Software Used by the SWIM Recommender API
+# Third-Party Software used by the SWIM-Hydroshare Bridge
 
 |Software|Version|License
 |:----:|:----:|:----:|
