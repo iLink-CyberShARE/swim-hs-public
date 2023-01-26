@@ -2,7 +2,7 @@ version: '3.8'
 services:
     swim-hs: 
         container_name: swim-hs
-        image: lagarnicachavira/swim-hs:latest
+        image: lagarnicachavira/swim-hs-public:latest
         restart: always
         environment:
           NODE_ENV: production
