@@ -48,7 +48,17 @@ Luis A Garnica Chavira - UTEP
 ## Collaborators
 Scott Black - Hydroshare
 
-## Citations
+## How to cite
+If you create products such as publications using SWIM products, it would be great if you add the  following acknowledgement:   
+
+"This work used the Sustainable Water for Integrated Modeling (SWIM) 2.0, which was supported by the National Science Foundation under Grant No. 1835897."  
+
+Please use the following citations for this product:     
+
+Supporting Regional Water Sustainability Decision-Making through Integrated Modeling
+Garnica Chavira L., Villanueva-Rosales N., Heyman J., Pennington D., Salas K.
+2022 IEEE 8th International Smart Cities Conference, Paphos, Cyprus. September 26-29, 2022.
+DOI 10.1109/ISC255366.2022.9922004   
 
 Horsburgh, J. S., Morsy, M. M., Castronova, A. M., Goodall, J. L., Gan, T., Yi, H., Stealey, M. J., & Tarboton, D. G. (2016). HydroShare: Sharing Diverse Environmental Data Types and Models as Social Objects with Application to the Hydrology Domain. JAWRA Journal of the American Water Resources Association, 52(4), 873–889. https://doi.org/10.1111/1752-1688.12363    
 
