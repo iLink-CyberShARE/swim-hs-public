@@ -60,6 +60,7 @@ Garnica Chavira L., Villanueva-Rosales N., Heyman J., Pennington D., Salas K.
 2022 IEEE 8th International Smart Cities Conference, Paphos, Cyprus. September 26-29, 2022.
 DOI 10.1109/ISC255366.2022.9922004   
 
+## Citations
 Horsburgh, J. S., Morsy, M. M., Castronova, A. M., Goodall, J. L., Gan, T., Yi, H., Stealey, M. J., & Tarboton, D. G. (2016). HydroShare: Sharing Diverse Environmental Data Types and Models as Social Objects with Application to the Hydrology Domain. JAWRA Journal of the American Water Resources Association, 52(4), 873–889. https://doi.org/10.1111/1752-1688.12363    
 
 ## Acknowledgements
